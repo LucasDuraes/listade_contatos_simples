@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----- Seção do Adicionar Contatos ----- */
+.adicionar{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.adicionar > h1{
+    margin-bottom: 10px;
+}
+
+.adicionar > form > input{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+}
+
+.adicionar > form > label{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+/* ----- Seção da Lista de Contatos ----- */
+.listacontatos{
+    border: 1px solid black;
+    width: 700px;
+    text-align: center;
+}
+
+.listacontatos > h1{
+    margin-bottom: 10px;
+}
+
+.listacontatos > .informacaocontato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.listacontatos > .informacaocontato > .infonome, .infotelefone, .infoemail{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.listacontatos > .informacaocontato > .infodescricao{
+    grid-column: 2;
+    grid-row: 1/4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* ----- Seção das Atividades Recentes ----- */
+.atividades{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.atividades > h1{
+    margin-bottom: 10px;
+}
+
+.atividades > section > .mensagem{
+    /*background-color: cadetblue;*/
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
